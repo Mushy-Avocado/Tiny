@@ -16,9 +16,9 @@ You can find me on
 
 ### #Kajam2021
 
-This game was submitted for the 2021 Kajam contest on Replit. The contest lasted seven days, but I forgot about it on the first day!  I worked on the game for ~2 hours a day until the final day, when I gave a final last push to get it done. I'll admit, I was pretty stressed out that I wasn't even going to be able to submit a complete game, but I think it turned out well. I'll add comments to the code later, LOL.  
+This game was submitted for the 2021 Kajam contest on Replit. The contest lasted seven days, but I forgot about it on the first day.  I worked on the game for ~2 hours a day until the final day, when I gave a final last push to get it done. I was pretty stressed out that I wasn't even going to be able to submit a complete game, but I think it turned out well. I'll add comments to the code later, lol.
 
-The theme is: huge
+The theme is huge
 
 ### Specifics
 
