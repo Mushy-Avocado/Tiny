@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+#p5_loading {
+  font-family: 'comic sans ms', 'cursive';
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
