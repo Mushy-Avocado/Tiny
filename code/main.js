@@ -2265,6 +2265,3 @@
   };
 
 })()
-
-const { WIDTH, HEIGHT } = window
-export { WIDTH, HEIGHT }
