@@ -1875,12 +1875,27 @@
   window.preload = function () {
     try {
       let k = Object.keys(images)
+      let baseURL = './images/';
+      if (window['forKhan']) {
+        // Relative path does not work inside Khan Academy
+        console.log('Loading images for Khan Academy environment.');
+        baseURL =  'https://github.com/Mushy-Avocado/Tiny/blob/4b2b99db833875d9e2a2c4f0afd31ef458d14324/images/';
+      }
       for (let i = 0; i < k.length; i++) {
-        images[k[i]] = loadImage('./images/' + images[k[i]])
+        images[k[i]] = loadImage(baseURL + images[k[i]])
       }
       k = Object.keys(sounds)
-      for (let i = 0; i < k.length; i++) {
-        sounds[k[i]] = loadSound('./sounds/' + sounds[k[i]])
+      // Support the Khan Academy environment
+      if (typeof loadSound != undefined) {
+        for (let i = 0; i < k.length; i++) {
+          sounds[k[i]] = loadSound('./sounds/' + sounds[k[i]])
+        }
+      } else {
+        for (let i = 0; i < k.length; i++) {
+          sounds[k[i]] = {
+            play: () => {}, 
+          }
+        }
       }
     } catch (e) {
       console.log(e)
