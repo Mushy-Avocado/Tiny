@@ -1879,7 +1879,7 @@
       if (window['forKhan']) {
         // Relative path does not work inside Khan Academy
         console.log('Loading images for Khan Academy environment.');
-        baseURL =  'https://github.com/Mushy-Avocado/Tiny/blob/4b2b99db833875d9e2a2c4f0afd31ef458d14324/images/';
+        baseURL =  'https://raw.githubusercontent.com/Mushy-Avocado/Tiny/4b2b99db833875d9e2a2c4f0afd31ef458d14324/images/';
       }
       for (let i = 0; i < k.length; i++) {
         images[k[i]] = loadImage(baseURL + images[k[i]])
